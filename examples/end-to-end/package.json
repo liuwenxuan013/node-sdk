@@ -11,6 +11,7 @@
   "dependencies": {
     "globalpayments-api": "^1.0",
     "micro": "^9.3.2",
+    "parcel": "^1.12.4",
     "urlencoded-body-parser": "^2.0.1"
   },
   "devDependencies": {

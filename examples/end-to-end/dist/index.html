@@ -4,8 +4,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title>End-to-End Payment Example</title>
-    <style>
-      .container {
+    <style>.container {
         width:300px;
         margin: 0 auto;
       }
@@ -16,8 +15,7 @@
         margin-bottom: 5px;
         padding: 6px 12px;
         width: 267px;
-      }
-    </style>
+      }</style>
   </head>
   <body>
     <div class="container">
@@ -41,8 +39,7 @@
 
 
     <!-- The SecureSubmit Javascript Library -->
-    <script type="text/javascript"
-            src="https://api2.heartlandportico.com/SecureSubmit.v1/token/gp-1.0.1/globalpayments.js">
+    <script type="text/javascript" src="https://api2.heartlandportico.com/SecureSubmit.v1/token/gp-1.0.1/globalpayments.js">
     </script>
 
     <script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
@@ -50,23 +47,29 @@
     <!-- TODO: Add SDKs for Firebase products that you want to use
          https://firebase.google.com/docs/web/setup#available-libraries -->
 
-    w
+    <script>// Your web app's Firebase configuration
+var firebaseConfig = {
+  apiKey: "AIzaSyCKf1F7lUtgtNGJhCYnqHhHhm3WWgi_YPk",
+  authDomain: "gp-pre-auth.firebaseapp.com",
+  databaseURL: "https://gp-pre-auth.firebaseio.com",
+  projectId: "gp-pre-auth",
+  storageBucket: "gp-pre-auth.appspot.com",
+  messagingSenderId: "465271326123",
+  appId: "1:465271326123:web:b86a7470921b8eb7c17eee"
+}; // Initialize Firebase
 
-    <script>
+firebase.initializeApp(firebaseConfig);</script>
 
-      GlobalPayments.configure({
-        publicApiKey: "pkapi_cert_P6dRqs1LzfWJ6HgGVZ"
-      });
+    <script>GlobalPayments.configure({
+  publicApiKey: "pkapi_cert_P6dRqs1LzfWJ6HgGVZ"
+}); // Mount logic and fields to a container by html selector
 
-      // Mount logic and fields to a container by html selector
-      const cardForm = GlobalPayments.creditCard.form("#credit-card");
-
-      cardForm.on("token-success", onTokenSuccess);
-
-      cardForm.on("token-error", (resp) => {
-        console.log(resp.reasons.map(r => r.message).join(' '))
-      });
-
-    </script>
+var cardForm = GlobalPayments.creditCard.form("#credit-card");
+cardForm.on("token-success", onTokenSuccess);
+cardForm.on("token-error", function (resp) {
+  console.log(resp.reasons.map(function (r) {
+    return r.message;
+  }).join(' '));
+});</script>
   </body>
 </html>
