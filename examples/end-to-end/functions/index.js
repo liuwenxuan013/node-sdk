@@ -79,7 +79,7 @@ console.log(`Response Message: ${authorization.responseMessage}`);
  // __proto__: Object
  // __proto__: Object
  // __proto__: Object
- return {card, payment};
+ return {card, authorization}
 })
 exports.capture = functions.https.onCall(async (body, context) => {
  const configure = () => {
@@ -100,7 +100,7 @@ console.log(body);
  card.token = body.card.token; // this does not go through on the sandbox since GP does not save any sandboxed's authorizations.
 
  //
- const payment = await; card.charge(body.price)
+ const payment = await card.charge(body.price)
    .withCurrency('USD')
    .execute();
  //
