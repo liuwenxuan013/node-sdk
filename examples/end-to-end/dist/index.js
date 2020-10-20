@@ -388,5 +388,5 @@ function hmrAcceptRun(bundle, id) {
     return true;
   }
 }
-},{}]},{},["node_modules/parcel/src/builtins/hmr-runtime.js"], null)
+},{}]},{},["node_modules/parcel/src/builtins/hmr-runtime.js"], null);
 //# sourceMappingURL=/index.js.map

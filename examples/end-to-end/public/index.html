@@ -70,8 +70,8 @@
           };
           // Initialize Firebase
           const app = firebase.initializeApp(firebaseConfig);
-          app.functions().useFunctionsEmulator("http://localhost:5001")
-          const fnb = app.functions()
+          app.functions().useFunctionsEmulator("http://localhost:5001");
+          const fnb = app.functions();
 
 
           cardForm.on("token-success", (res) => {
@@ -92,12 +92,10 @@
               }, 1500)
 
             }).catch(e=> console.log(e))
-          });
-
+        })
           cardForm.on("token-error", (resp) => {
             console.log(resp.reasons.map(r => r.message).join(' '))
-          });
-
+        })
         } catch (e) {
           console.error(e);
           document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';

@@ -2,21 +2,126 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04fb25cf-99ae-4cc9-a59d-535917fc90e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/examples/end-to-end/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/end-to-end/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/examples/end-to-end/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/examples/end-to-end/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/GlobalPaymentnode-sdk.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/dist/end-to-end.e31bb0bc.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/end-to-end/dist/end-to-end.e31bb0bc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/dist/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/end-to-end/dist/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/error.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/functions/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/examples/end-to-end/functions/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/examples/end-to-end/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/examples/end-to-end/success.html" beforeDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/examples/end-to-end/public/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="377">
+              <caret line="100" column="107" selection-start-line="100" selection-start-column="107" selection-end-line="100" selection-end-column="107" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/examples/end-to-end/functions/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="405">
+              <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PackageJsonUpdateNotifier">
-    <dismissed value="$PROJECT_DIR$/package.json" />
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/examples/end-to-end/functions/index.js" />
+        <option value="$PROJECT_DIR$/examples/end-to-end/public/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/gp-preauth-code.iml" />
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+        <option value="$PROJECT_DIR$/.idea/misc.xml" />
+        <option value="$PROJECT_DIR$/.idea/eslintPlugin.xml" />
+        <option value="$PROJECT_DIR$/.idea/modules.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="1280" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectId" id="1j7HV7lMZkC3UP5Dre4PPoPSGZ3" />
+  <component name="ProjectView">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="gp-preauth-code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Workspace/gp-preauth-code" type="442cc68d:ScopeViewTreeModel$RootNode" />
+            </path>
+            <path>
+              <item name="gp-preauth-code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Workspace/gp-preauth-code" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="gp-preauth-code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Workspace/gp-preauth-code" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="end-to-end" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="gp-preauth-code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Workspace/gp-preauth-code" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="end-to-end" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="functions" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="gp-preauth-code" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="~/Workspace/gp-preauth-code" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="examples" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="end-to-end" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="public" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,10 +135,26 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="04fb25cf-99ae-4cc9-a59d-535917fc90e3" name="Default Changelist" comment="" />
@@ -42,16 +163,62 @@
       <option name="presentableId" value="Default" />
       <updated>1603148231286</updated>
       <workItem from="1603148232645" duration="6500000" />
+      <workItem from="1603156403252" duration="1643000" />
     </task>
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1899000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1225" height="777" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30608842" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2608" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="GfmBrowser" order="3" />
+    </layout>
+  </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
     <state x="437" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1603149466721">
       <screen x="0" y="23" width="1545" height="877" />
     </state>
     <state x="437" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1545.877@0.23.1545.877" timestamp="1603149466721" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/index.js" />
+    <entry file="file://$PROJECT_DIR$/examples/end-to-end/index.js" />
+    <entry file="file://$PROJECT_DIR$/examples/end-to-end/index.html" />
+    <entry file="file://$PROJECT_DIR$/examples/end-to-end/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="100" column="107" selection-start-line="100" selection-start-column="107" selection-end-line="100" selection-end-column="107" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples/end-to-end/functions/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="28" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

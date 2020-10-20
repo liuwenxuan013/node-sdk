@@ -19,19 +19,20 @@ exports.preAuthorizePayment = functions.https.onCall(async (body, context) => {
 
   ServicesContainer.configure(config);
  }
- configure()
+ configure();
 
  const card = new CreditCardData();
  card.token = body.paymentReference;
 
 
- const payment = await card.authorize('120.00')
+ const authorization = await card.authorize('120.00')
    .withCurrency('USD')
    .execute();
 
- console.log(`Transaction ID:   ${payment.transactionId}`);
- console.log(`Response Code:    ${payment.responseCode}`);
- console.log(`Response Message: ${payment.responseMessage}`);
+console.log(`Transaction ID:   ${authorization.transactionId}`);
+console.log(`Response Code:    ${authorization.responseCode}`);
+console.log(`Response Message: ${authorization.responseMessage}`);
+
 // You are saving this data for future procession. This contins all the info about cart items and payment, etc.
 //  database.write({
 //   cart,
@@ -78,10 +79,8 @@ exports.preAuthorizePayment = functions.https.onCall(async (body, context) => {
  // __proto__: Object
  // __proto__: Object
  // __proto__: Object
- return {card, payment}
-});
-
-
+ return {card, payment};
+})
 exports.capture = functions.https.onCall(async (body, context) => {
  const configure = () => {
   const config = new ServicesConfig();
@@ -94,20 +93,21 @@ exports.capture = functions.https.onCall(async (body, context) => {
 
   ServicesContainer.configure(config);
  }
- configure()
-console.log(body)
-
+ configure();
+console.log(body);
+  // having received retrieved order (from db)
  const card = new CreditCardData();
- card.token = body.card.token
+ card.token = body.card.token; // this does not go through on the sandbox since GP does not save any sandboxed's authorizations.
+
  //
- const payment = await card.charge(body.price)
+ const payment = await; card.charge(body.price)
    .withCurrency('USD')
-   .execute()
+   .execute();
  //
  // console.log(`Transaction ID:   ${payment.transactionId}`);
  // console.log(`Response Code:    ${payment.responseCode}`);
  // console.log(`Response Message: ${payment.responseMessage}`);
 
 
- return 'Good business'
-});
+ return 'Good business';
+})
